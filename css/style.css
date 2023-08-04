@@ -6,6 +6,18 @@
     --cta_padding: 12px 24px;
     --font: 'comfortaa', sans-serif;
   }
+
+  .banner-background {
+    background-color: var(--cta);
+  }
+
+  .banner-background h2{
+    color: white;
+  }
+
+  .banner-background h3 {
+    color: white;
+  }
   
   *,
   *::after,
@@ -26,6 +38,7 @@
     width: 100%;
     /* padding: 1rem; */
     justify-content: center;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
 .nav img {
