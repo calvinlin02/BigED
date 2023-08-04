@@ -82,6 +82,25 @@
     /* background-color: rgba(0,0,0,0.05); */
 }
 
+.item-35 {
+    padding: 10px;
+    width: 35%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	margin-bottom: 5%;
+    /* background-color: rgba(0,0,0,0.05); */
+}
+
+.item-15 {
+    padding: 10px;
+    width: 15%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+	margin-bottom: 5%;
+    /* background-color: rgba(0,0,0,0.05); */
+}
+
+
 #center-text{
 	text-align: center;
 	color: white;
