@@ -18,6 +18,10 @@
   .banner-background h3 {
     color: white;
   }
+
+  .banner-background ul li {
+    color: white;
+  }
   
   *,
   *::after,
