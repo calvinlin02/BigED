@@ -2,7 +2,7 @@
     --Primary: #031424;
     --light: #fdfeff;
     --Secandary: #30415d;
-    --cta: #118099;
+    --cta: rgb(82, 182, 204);
     --cta_padding: 12px 24px;
     --font: 'comfortaa', sans-serif;
   }
@@ -17,6 +17,8 @@
   }
   
 .navcontainer {
+    position: fixed;
+    z-index: 9999;
     display: flex;
     background-color: var(--cta);
     font-size: 2rem;
@@ -72,6 +74,7 @@
   left:0;
   right:0;
   position:absolute;
+  margin-top: 35vh;
 }
 
 .center {
@@ -86,7 +89,7 @@
   border-width:0 2em;
   display:block;
   height:0;
-  margin:10em auto;
+  margin:1rem auto;
   opacity:0.4;
   text-indent:-9999px;
   transform-origin: 50% 50%;
