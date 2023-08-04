@@ -1,7 +1,7 @@
 :root {
     --Primary: #031424;
     --light: #fdfeff;
-    --Secandary: #30415d;
+    --Secandary: #F2BE54;
     --cta: rgb(82, 182, 204);
     --cta_padding: 12px 24px;
     --font: 'comfortaa', sans-serif;
@@ -120,11 +120,11 @@
 }
 .up {
   -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
-  border-bottom:2em solid var(--cta);
+  border-bottom:2em solid var(--Secandary);
 }
 .down {
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
-  border-top:2em solid var(--cta);
+  border-top:2em solid var(--Secandary);
 }
 
 iframe {
